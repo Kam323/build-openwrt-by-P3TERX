@@ -18,3 +18,4 @@
 #echo 'src-git passwall https://github.com/xiaorouji/openwrt-passwall' >>feeds.conf.default
 echo 'src-git kenzo https://github.com/kenzok8/openwrt-packages' >>feeds.conf.default
 echo 'src-git small https://github.com/kenzok8/small' >>feeds.conf.default
+#注：必须先在lede源码根目录下feeds.conf.default文件内添加上面两条源地址，再feeds update和feeds install后，生成.config才有效
